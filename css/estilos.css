@@ -1,0 +1,130 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+  height: 100vh;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  color: #212529;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+#home h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+#home p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.scroll-btn, .btn {
+  margin-top: 30px;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.scroll-btn:hover, .btn:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+}
+
+#carouselExampleIndicators {
+  max-width: 1200px;
+  height: 450px;
+  margin: auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+section {
+  padding: 80px 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#contato input {
+  border-radius: 8px;
+}
+
+#localizacao iframe {
+  border-radius: 12px;
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#integrantes {
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+#integrantes h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#integrantes .card {
+  margin: 0 auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+}
+
+#integrantes .card:hover {
+  transform: scale(1.03);
+}
+
+#integrantes .card-img-top {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  object-fit: cover;
+  height: 300px;
+}
+
+#integrantes .card-body {
+  padding: 15px;
+}
+
+footer {
+  background-color: #1c1c1c;
+  color: #f1f1f1;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+nav.scrolled {
+  background-color: #212529 !important;
+  transition: background-color 0.3s ease;
+}
