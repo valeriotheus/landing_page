@@ -70,45 +70,8 @@ section {
 
 #localizacao iframe {
   border-radius: 12px;
-  width: 100%;
-  max-width: 800px;
-  height: 450px;
   margin: 20px auto;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-#integrantes {
-  background-color: #f8f9fa;
-  text-align: center;
-}
-
-#integrantes h2 {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-
-#integrantes .card {
-  margin: 0 auto;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  border: none;
-  border-radius: 16px;
-  transition: transform 0.3s ease;
-}
-
-#integrantes .card:hover {
-  transform: scale(1.03);
-}
-
-#integrantes .card-img-top {
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
-  object-fit: cover;
-  height: 300px;
-}
-
-#integrantes .card-body {
-  padding: 15px;
 }
 
 footer {
